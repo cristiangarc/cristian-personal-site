@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: white;
+}
+  
+.header h1 {
+    text-align: center;
+}
+
+#Personal h2 {
+    text-align: center;
+}
+
+.picture {
+    max-width: 100%;
+    width: 38%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+}
+
+#Professional h1 {
+    text-align: center;
+}
+
+.pennlogo {
+    width: 10%;
+}
+
+.contact {
+    text-align: center;
+}
+
+.roles {
+    display: flex;
+}
+
+.row2 {
+    flex: 50%;
+}
+
+.activities {
+    display: flex;
+}
+
+.row1 {
+    flex: 49%;
+}
+
+#soccerTeam {
+    text-align: left;
+}
+
+.barcelona {
+    width: 10%;
+}
+
+.penn {
+    width: 5%;
+}
+
+.kipp {
+    width: 100px;
+    height: 100px;
+}
+
+.deloitte {
+    width: 30%;
+}
+
+.robin-hood {
+    width: 30%;
+}
+
+#logos {
+    text-align: justified;
+}
