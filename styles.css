@@ -27,7 +27,10 @@ p.contact {
 
 section.intro {
     display: block;
-    margin: 50px;
+    margin: 15px;
+    height: 200px;
+    width: auto;
+    text-align: justify;
 }
 
 #Personal h2 {
