@@ -3,18 +3,21 @@ body {
     color: whitesmoke;
 }
   
-header h1 {
+header.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header.contact h1 {
     border-top: 1px solid whitesmoke;
     border-bottom: 1px solid whitesmoke;
     text-align: left;
-    display: inline-block;
+    width: 325px;
 }
 
-p.contact {
-    display: inline-block;
-    padding: 25px;
+header.contact p {
+    display: block;
     text-align: right;
-    padding: 0px 0px 0px 700px;
 }
 
 .cristian-portrait {
@@ -121,4 +124,24 @@ section.interests {
 
 #logos {
     text-align: justified;
+}
+
+@media (max-width: 780px) {
+    .cristian-portrait {
+        width: 300px;
+        height: auto;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .cristian-portrait {
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+    }
 }
