@@ -6,6 +6,7 @@ body {
 header.contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    color: black;
 }
 
 header.contact h1 {
