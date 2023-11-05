@@ -54,6 +54,10 @@ section.personal {
     color: #5FFAF0;
 }
 
+section.personal h2 {
+  text-align: left;
+}
+
 section.interests {
     display: block;
     color: #76A5A2;
