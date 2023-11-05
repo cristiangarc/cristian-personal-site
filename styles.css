@@ -1,10 +1,33 @@
 body {
     background-color: black;
-    color: white;
+    color: whitesmoke;
 }
   
-.header h1 {
-    text-align: center;
+header h1 {
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    text-align: left;
+    display: inline-block;
+}
+
+p.contact {
+    display: inline-block;
+    padding: 25px;
+    text-align: right;
+    padding: 0px 0px 0px 700px;
+}
+
+.cristian-portrait {
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+section.intro {
+    display: block;
+    margin: 50px;
 }
 
 #Personal h2 {
