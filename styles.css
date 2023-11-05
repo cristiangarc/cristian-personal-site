@@ -1,6 +1,5 @@
 body {
     background-color: #FABE5F;
-    color: black;
 }
   
 header.contact {
@@ -10,8 +9,8 @@ header.contact {
 }
 
 header.contact h1 {
-    border-top: 1px solid whitesmoke;
-    border-bottom: 1px solid whitesmoke;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     text-align: left;
     width: 325px;
 }
