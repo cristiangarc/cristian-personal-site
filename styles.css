@@ -27,13 +27,32 @@ p.contact {
 
 section.intro {
     display: block;
-    margin: 15px;
-    height: 200px;
+    height: auto;
     width: auto;
     text-align: justify;
 }
 
-#Personal h2 {
+section.professional {
+    display: block;
+}
+
+section.academics {
+    display: block;
+}
+
+section.projects {
+    display: block;
+}
+
+section.personal {
+    display: block;
+}
+
+section.interests {
+    display: block;
+}
+
+.personal h2 {
     text-align: center;
 }
 
