@@ -81,20 +81,12 @@ section.interests {
     text-align: center;
 }
 
-.roles {
-    display: flex;
-}
-
-.row2 {
-    flex: 50%;
+.experience {
+    display: block;
 }
 
 .activities {
     display: flex;
-}
-
-.row1 {
-    flex: 49%;
 }
 
 #soccerTeam {
