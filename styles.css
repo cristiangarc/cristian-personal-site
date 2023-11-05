@@ -50,11 +50,12 @@ section.projects {
 
 section.personal {
     display: block;
+    color: #5FFAF0;
 }
 
 section.interests {
     display: block;
-    color: #5FFAF0;
+    color: #76A5A2;
 }
 
 .personal h2 {
