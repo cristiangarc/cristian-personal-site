@@ -1,23 +1,36 @@
 body {
     background-color: #FABE5F;
-}
-  
-header.contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     color: black;
+}
+
+header.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: black;
+    text-align: left;
+    height: 100px;
 }
 
 header.contact h1 {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    text-align: left;
     width: 325px;
 }
 
-header.contact p {
-    display: block;
+section.contact-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3px;
+    height: 20px;
+}
+
+header.contact p,
+header.contact a 
+{
+    display: inline-block;;
     text-align: right;
+    height: 3px;
 }
 
 .cristian-portrait {
@@ -37,12 +50,10 @@ section.intro {
 
 section.professional {
     display: block;
-    color: #5FFA98;
 }
 
 section.academics {
     display: block;
-    color: #FA935F;
 }
 
 section.projects {
@@ -51,7 +62,6 @@ section.projects {
 
 section.personal {
     display: block;
-    color: #5FFAF0;
 }
 
 section.personal h2 {
@@ -60,7 +70,6 @@ section.personal h2 {
 
 section.interests {
     display: block;
-    color: #76A5A2;
 }
 
 .picture {
