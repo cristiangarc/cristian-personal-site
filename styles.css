@@ -26,6 +26,10 @@ header.contact a
     height: 3px;
 }
 
+br.first-br {
+    display: none;
+}
+
 .cristian-portrait {
     width: 350px;
     height: auto;
@@ -125,6 +129,7 @@ section.interests {
 }
 
 @media (max-width: 780px) {
+
     .cristian-portrait {
         width: 300px;
         height: auto;
@@ -135,6 +140,24 @@ section.interests {
 }
 
 @media (max-width: 500px) {
+
+    header.contact {
+        display: inline-block;
+    }
+    
+    section.contact-info {
+        display: none;
+    }
+
+    /* header.contact p,
+    header.contact a {
+        text-align: left;
+    } */
+
+    br.first-br {
+        display: block;
+    }
+
     .cristian-portrait {
         width: 200px;
         height: auto;
