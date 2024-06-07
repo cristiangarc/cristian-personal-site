@@ -18,19 +18,16 @@ header.contact h1 {
     width: 325px;
 }
 
-section.contact-info {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 3px;
-    height: 20px;
-}
-
 header.contact p,
 header.contact a 
 {
-    display: inline-block;;
+    display: block;;
     text-align: right;
     height: 3px;
+}
+
+br.first-br {
+    display: none;
 }
 
 .cristian-portrait {
@@ -132,6 +129,7 @@ section.interests {
 }
 
 @media (max-width: 780px) {
+
     .cristian-portrait {
         width: 300px;
         height: auto;
@@ -142,6 +140,24 @@ section.interests {
 }
 
 @media (max-width: 500px) {
+
+    header.contact {
+        display: inline-block;
+    }
+    
+    section.contact-info {
+        display: none;
+    }
+
+    /* header.contact p,
+    header.contact a {
+        text-align: left;
+    } */
+
+    br.first-br {
+        display: block;
+    }
+
     .cristian-portrait {
         width: 200px;
         height: auto;
