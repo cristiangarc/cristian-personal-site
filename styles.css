@@ -130,6 +130,11 @@ section.interests {
 
 @media (max-width: 780px) {
 
+	header.contact h1 {
+		font-size: 22px;
+		width: 230px;
+	}
+	
     .cristian-portrait {
         width: 300px;
         height: auto;
