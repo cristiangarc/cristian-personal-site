@@ -1,5 +1,5 @@
 body {
-    background-color: navy;
+    background-color: black;
     color: white;
 }
 
@@ -7,7 +7,7 @@ header.contact {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    color: black;
+    color: whitesmoke;
     text-align: left;
     height: 100px;
 }
